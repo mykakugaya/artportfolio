@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
         alignItems: "center"
     },
     tabs: {
-        color: "white",
+        color: "#cfd8dc",
         textDecoration: "none"
     },
     link: {
@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
         color: "white"
     },
     activeTab: {
-        color: "blue",
+        color: "#ffecb3",
         textDecoration: "none"
     },
     padding: {
@@ -52,16 +52,16 @@ export default function Navbar() {
       <AppBar className={classes.appbar}>
         <Toolbar className={classes.padding}>
           <Tabs className={classes.appbar}>
-            <Link className={classes.link, "navtab"} to="/">
+            <Link className={classes.link} to="/">
                 <Tab className={window.location.pathname === "/" ? classes.activeTab : classes.tabs} label="Home"/>
             </Link>
-            <Link className={classes.link, "navtab"} to="/about">
+            <Link className={classes.link} to="/about">
                 <Tab className={window.location.pathname === "/about" ? classes.activeTab : classes.tabs} label="About"/>
             </Link>
-            <Link className={classes.link, "navtab"} to="/portfolio">
+            <Link className={classes.link} to="/portfolio">
                 <Tab className={window.location.pathname === "/portfolio" ? classes.activeTab : classes.tabs} label="Portfolio"/>
             </Link>
-            <Link className={classes.link, "navtab"} to="/contact">
+            <Link className={classes.link} to="/contact">
                 <Tab className={window.location.pathname === "/contact" ? classes.activeTab : classes.tabs} label="Contact"/>
             </Link>
           </Tabs>
