@@ -5,7 +5,7 @@ var style = {
     borderTop: "1px solid #E7E7E7",
     textAlign: "center",
     padding: "1%",
-    position: "relative",
+    position: "fixed",
     left: "0",
     right:"0",
     bottom: "0",

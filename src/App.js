@@ -15,16 +15,16 @@ function App() {
         <Navbar/>
         <Switch>
           <Route exact path="/">
-            {/* <Home /> */}
+            <Home />
           </Route>
           <Route exact path="/about">
-            {/* <About /> */}
+            <About />
           </Route>
           <Route exact path="/portfolio">
-            {/* <Portfolio /> */}
+            <Portfolio />
           </Route>
           <Route exact path="/contact">
-            {/* <Contact /> */}
+            <Contact />
           </Route>
         </Switch>
         <Footer>Copyright 2020. Portfolio powered by React.

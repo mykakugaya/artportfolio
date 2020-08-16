@@ -16,11 +16,11 @@ const useStyles = makeStyles((theme) => ({
         marginLeft: 0
     },
     appbar: {
-        backgroundColor: "black",
+        backgroundColor: "#eeeeee",
         alignItems: "center"
     },
     tabs: {
-        color: "#cfd8dc",
+        color: "black",
         textDecoration: "none"
     },
     link: {
@@ -28,8 +28,8 @@ const useStyles = makeStyles((theme) => ({
         color: "white"
     },
     activeTab: {
-        color: "#ffecb3",
-        textDecoration: "none"
+        color: "black",
+        textDecoration: "underline"
     },
     padding: {
         paddingLeft: 0,
