@@ -1,0 +1,61 @@
+.bannerimg{
+    z-index: 0;
+    width:100%;
+    position: relative;
+    display:block;
+    margin-top:10vh!important;
+}
+
+.bannerRow{
+    padding: 0 auto!important;
+}
+
+.title{
+    font-family: 'M PLUS 1p', sans-serif;
+    font-size: 4em;
+    position: absolute;
+    text-align: center;
+    top:25%;
+    left:42%;
+    margin: 0 auto!important;
+    padding:0 auto!important;
+    color: white;
+    z-index: 3;
+    float: center;
+}
+
+.titleContainer{
+    width:100vw;
+    justify-items:center;
+    align-items: center;
+    text-align: center;
+    padding: 0 auto;
+    float:center;
+}
+
+.jumbotron{
+    top:0;
+    width:100%;
+    margin:0;
+}
+
+@media only screen and (max-width: 1000px) {
+    .title{
+        top: 20%;
+        left: 40%;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .title{
+        top: 15%;
+        left:35%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .title{
+        top: 13%;
+        left:30%;
+    }
+}

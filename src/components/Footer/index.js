@@ -1,7 +1,7 @@
 import React from "react";
 
 var style = {
-    backgroundColor: "gray",
+    backgroundColor: "white",
     borderTop: "1px solid #E7E7E7",
     textAlign: "center",
     padding: "1%",
@@ -10,7 +10,7 @@ var style = {
     right:"0",
     bottom: "0",
     width: "100vm",
-    color: "white",
+    color: "black",
     fontSize: "large",
     fontFamily: "Times New Roman"
 }

@@ -1,0 +1,88 @@
+.container{
+    margin-top:0;
+    margin-bottom:5vh;;
+    width:100%;
+    top:0;
+  }
+  
+  .bioCol{
+    font-size:1rem;
+    max-width:60vw;
+    margin:0 auto;
+    text-align:left;
+    position:relative;
+    margin-bottom: 5vh;
+    float:left;
+  }
+
+  .bioRow{
+      margin-bottom:10vh;
+  }
+  
+  .bioimage{
+    /* max-width: 30vw; */
+    max-height:40vh;
+    float:left;
+    position: relative;
+    border-radius: 2vw;
+    /* margin-top:5vh; */
+    margin-right: 2vw;
+    margin-bottom:10vh;
+    margin-top:2vh;
+  }
+  .bioCol{
+      font-size:1rem;
+      text-align:left;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .imgCol{
+    text-align:left;
+    margin-top:0;
+    padding-left:5vw!important;
+  }
+  .biop{
+      float:left;
+      margin-left:2vw;
+  }
+/*   
+  .bluetext{
+    color:#007bff;
+  } */
+  
+  
+  @media only screen and (max-device-width: 400px) {
+    .about{
+      font-size:2.5rem;
+    }
+    .biop{
+        margin-top:2vh;
+        float:left;
+    }
+    .bioimage{
+        margin-bottom:2vh;
+    }
+  }
+  @media only screen and (max-device-width: 767px) {
+      .imgCol{
+          text-align:center;
+          justify-content: center;
+          align-items: center;
+          margin:0 auto;
+      }
+      .bioCol{
+          margin:0 auto;
+      }
+    .bioimage{
+      max-width:90vw;
+      padding: 0 auto;
+      margin-bottom:2vh;
+      margin: 0 auto;
+    }
+    .biop{
+        float:left;
+        margin-left:10vw;
+        width:100%;
+    }
+  }
