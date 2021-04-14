@@ -23,7 +23,7 @@ function App() {
             <Contact />
           </Route>
         </Switch>
-        <Footer>Copyright 2021. Created by Adelina Kugaya.
+        <Footer>Copyright 2020. Created by Adelina Kugaya.
         </Footer>
       </Router>
     </div>
