@@ -8,7 +8,7 @@ function Bio() {
     <Container className="container">
         <Row classname="bioRow">
           <Col xs={12} sm={3} md={3} lg={3} className="imgCol">
-            <img src={ProfilePic} className="bioimage"/>
+            <img src={ProfilePic} className="bioimage" alt="bioimage"/>
           </Col>
           <Col xs={12} sm={8} md={8} lg={8} className="bioCol">
             <p className="biop">
