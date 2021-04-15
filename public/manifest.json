@@ -9,12 +9,12 @@
     },
     {
       "src": "logo",
-      "type": "image/png",
+      "type": "image/icon",
       "sizes": "192x192"
     },
     {
       "src": "logo",
-      "type": "image/png",
+      "type": "image/icon",
       "sizes": "512x512"
     }
   ],
