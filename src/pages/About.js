@@ -1,6 +1,6 @@
 import React from "react";
 import BannerImage from "../components/BannerImage";
-import {Container, Row, Col} from "react-bootstrap";
+import {Container} from "react-bootstrap";
 import aboutbanner from "../images/aboutbanner.jpg";
 import Bio from "../components/Bio";
 
