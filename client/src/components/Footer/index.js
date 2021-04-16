@@ -9,7 +9,7 @@ var style = {
     left: "0",
     right:"0",
     bottom: "0",
-    width: "100vm",
+    width: "100vw",
     color: "black",
     fontSize: "large",
     fontFamily: "Times New Roman"
@@ -18,7 +18,7 @@ var style = {
 var phantom = {
     display: 'block',
     height: '2%',
-    width: '100vm',
+    width: '100vw',
 }
 
 function Footer({ children }) {

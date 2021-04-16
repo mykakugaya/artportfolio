@@ -1,13 +1,13 @@
 #navi {
     top:0%;
     text-align: left;
-    padding-bottom: 10px;
+    padding-bottom: 0;
     margin: 0 auto;
     background-color:white;
     width:100vw!important;
     position:fixed;
     z-index:5000;
-    border-bottom: 3px solid #557255;
+    border-bottom: 3px solid #7c90af;
   }
   #basic-navbar-nav {
     margin: 0;
@@ -24,8 +24,8 @@
     padding: 1.5rem !important;
     margin-right: 2rem !important;
     margin-left: 2rem !important;
-    color: #557255;
-    font-size: 20px;
+    color: #7c90af;
+    font-size: 1rem;
     line-height: 23px;
     font-variant: small-caps;
     z-index: 5;
@@ -43,18 +43,22 @@
   }
 
   .logo{
-      max-width:5vw;
+      max-height:4vw;
       padding-right:5vw;
   }
   .logoText{
       float:left;
     margin-top: 1vh!important;
     margin-right: 0.5vw!important;
+    color:#7285a1;
     }
   
 
-  @media only screen and (max-device-width: 600px) {
+  @media only screen and (max-device-width: 650px) {
     .logo{
         display:none;
+    }
+    .logoText{
+      display:none;
     }
   } 

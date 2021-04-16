@@ -5,32 +5,31 @@
     top:0;
   }
   
-  .bioCol{
+  .missionCol{
     font-size:1rem;
     max-width:60vw;
     margin:0 auto;
     text-align:left;
     position:relative;
-    margin-bottom: 5vh;
+    margin-bottom: 10vh!important;
     float:left;
   }
 
-  .bioRow{
-      margin-bottom:10vh;
+  .missionRow{
+      margin-bottom:5vh!important;
   }
   
-  .bioimage{
-    /* max-width: 30vw; */
+  .missionimage{
+    max-width: 37vw;
+    /* max-height:40vh; */
     float:left;
     position: relative;
     border-radius: 2vw;
     /* margin-top:5vh; */
-    margin-left: 2vw;
-    margin-bottom:10vh;
-    margin-top:2vh;
-    max-width: 20rem;
+    margin:0;
   }
-  .bioCol{
+  .missionCol{
+      font-size:1rem;
       text-align:left;
       justify-content: center;
       align-items: center;
@@ -41,33 +40,25 @@
     margin-top:0;
     padding-right:5vw!important;
   }
-  .biop{
-    font-size:1.2rem;
-      float:right;
-      margin-left:10vw;
-      margin-top:5vh;
-  }
-.missionp{
-  font-size:1.2rem;
+  .missionp{
       float:left;
       margin-top:5vh;
-}
+  }
+/*   
+  .bluetext{
+    color:#007bff;
+  } */
   
-.aboutmeTitle{
-  text-align:left;
-  margin-left:10vw;
-  margin-bottom:0;
-}
   
   @media only screen and (max-device-width: 400px) {
     .about{
       font-size:2.5rem;
     }
-    .biop{
+    .missionp{
         margin-top:2vh;
         float:left;
     }
-    .bioimage{
+    .missionimage{
         margin-bottom:2vh;
     }
   }
@@ -78,16 +69,16 @@
           align-items: center;
           margin:0 auto;
       }
-      .bioCol{
+      .missionCol{
           margin:0 auto;
       }
-    .bioimage{
+    .missionimage{
       max-width:90vw;
       padding: 0 auto;
       margin-bottom:2vh;
       margin: 0 auto;
     }
-    .biop{
+    .missionp{
         float:left;
         margin-left:10vw;
         width:100%;

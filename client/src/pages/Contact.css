@@ -1,9 +1,115 @@
-.biolinks{
-    text-align:left;
-    margin-top: 10vh;
-    font-size:1.2rem;
-}
+.contact{
+  font-size:2rem;
+  margin-bottom:4vh;
+  font-family: 'Spartan', sans-serif;
+  padding:0;
   
-  .bluetext{
-    color:#007bff;
+}
+.contactbackground{
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height:100vh;
+  /* padding-top:15vh; */
+  width:100vw!important;
+  margin:0;
+}
+
+.label{
+  font-size:1rem;
+  margin-right:1vw;
+  font-family: 'Spartan', sans-serif;
+}
+
+.form {
+  text-align: center;
+  align-content: center;
+  margin:0 auto !important;
+  margin-bottom:10vh;
+}
+
+.form-group{
+  margin:0 auto;
+  justify-content: center;
+}
+
+.label{
+  padding-bottom:1vh;
+}
+
+#nameinput{
+  margin: 0 auto;
+  margin-bottom:2vh;
+  width:17rem;
+  border-radius: 0.5vw;
+  height:2rem;
+}
+
+#emailinput{
+  margin: 0 auto;
+  margin-bottom:2vh;
+  width:17rem;
+  border-radius: 0.5vw;
+  height:2rem;
+}
+
+#messageinput{
+  margin: 0 auto;
+  width:19rem;
+  border-radius: 0.5vw;
+  max-width:50vw;
+  max-height:30vh;
+}
+
+.sendBtn{
+  margin:0 auto;
+  margin-bottom:5vh;
+  border-radius: 1vw;
+  padding:0.2rem;
+  font-family: 'Spartan', sans-serif;
+  background-color:white;
+  color:black;
+
+}
+
+.sendBtn:hover{
+  background-color: rgba(26, 26, 104, 0.726);
+  color:white;
+  border:1px solid white;
+}
+
+.sendBtn:active{
+  background-color: rgba(26, 26, 104, 0.726);
+  color:white;
+  border:1.5px solid white;
+}
+
+@media only screen and (max-device-width:650px) {
+  .contact{
+      font-size:2rem;
   }
+  #messageinput{
+      max-width:none;
+
+  }
+}
+@media only screen and (max-device-width:380px) {
+  .contact{
+      font-size:1.5rem;
+  }
+  .label{
+      font-size:0.8rem;
+  }
+  #nameinput{
+      max-width:90vw;
+  }
+  #emailinput{
+      max-width:90vw;
+  }
+  #messageinput{
+      max-width:90vw;
+  }
+  .sendBtn{
+      font-size:0.7rem;
+  }
+}

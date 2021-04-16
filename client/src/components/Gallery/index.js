@@ -17,7 +17,7 @@ function Gallery() {
                 <Col xs={12} sm={4} className="imgCol">
                 <Image src={s1} alt="sensei1" className="gallerypic left" thumbnail/>
                 </Col>
-                <Col xs={12} sm={8} className="infoCol">
+                <Col xs={12} sm={7} className="infoCol">
                     <img src={icon1} alt="icon1" className="iconPic left"/>
                     <p className="desc">Name: Takushi Takahara<br/>
                     Phone Number: +81 869 64 2453<br/>
@@ -28,7 +28,7 @@ function Gallery() {
                 <Col xs={12} sm={4} className="imgCol">
                 <Image src={s2} alt="sensei2" className="gallerypic left" thumbnail/>
                 </Col>
-                <Col xs={12} sm={8} className="infoCol">
+                <Col xs={12} sm={7} className="infoCol">
                     <img src={icon2} alt="icon2" className="iconPic left"/>
                     <p className="desc">Name: Masami Sakamoto<br/>
                     Phone Number: +81 973 29 2405<br/>
@@ -39,7 +39,7 @@ function Gallery() {
                 <Col xs={12} sm={4} className="imgCol">
                 <img src={s3} alt="sensei3" className="gallerypic left"/>
                 </Col>
-                <Col xs={12} sm={8} className="infoCol">
+                <Col xs={12} sm={7} className="infoCol">
                     <Image src={icon3} alt="icon3" className="iconPic left" thumbnail/>
                     <p className="desc">Name: Takumi Sakamoto<br/>
                     Phone Number: +81 973 29 2404<br/>

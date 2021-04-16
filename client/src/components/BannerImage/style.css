@@ -1,6 +1,6 @@
 .bannerimg{
     z-index: 0;
-    width:100%;
+    width:100vw;
     position: relative;
     display:block;
     margin-top:10vh!important;
@@ -16,7 +16,7 @@
     position: absolute;
     text-align: center;
     top:25%;
-    left:42%;
+    left:40%;
     margin: 0 auto!important;
     padding:0 auto!important;
     color: white;
