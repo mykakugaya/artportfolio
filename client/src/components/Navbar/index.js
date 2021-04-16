@@ -14,7 +14,7 @@ export default function Navigation () {
     <Nav className="mr-auto">
     <Link className="inactive" activeClassName="active" exact={true} to="/">HOME
     </Link>
-    <Link className="inactive" activeClassName="active" exact={true} to="/about">ABOUT
+    <Link className="inactive" activeClassName="active" exact={true} to="/mission">MISSION
     </Link>
     <Link className="inactive" activeClassName="active" exact={true}  to="/contact">CONTACT
     </Link>
