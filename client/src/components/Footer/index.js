@@ -4,12 +4,12 @@ var style = {
     backgroundColor: "white",
     borderTop: "1px solid #E7E7E7",
     textAlign: "center",
-    padding: "1%",
+    padding: "1% 0 1% 0",
     position: "fixed",
     left: "0",
     right:"0",
     bottom: "0",
-    width: "100vw",
+    width: "100%",
     color: "black",
     fontSize: "large",
     fontFamily: "Times New Roman"
@@ -24,7 +24,7 @@ var phantom = {
 function Footer({ children }) {
 return (
     <div>
-        <div style={phantom} />
+        {/* <div style={phantom} /> */}
         <div style={style}>
             { children }
         </div>

@@ -18,12 +18,9 @@ export default function Navigation () {
     </Link>
     <Link className="inactive" activeClassName="active" exact={true}  to="/contact">CONTACT
     </Link>
-    {/* {window.location.pathname="/about" ?  */}
     <div className="right logoDiv">
         <p className="logoText">CERAMIX</p><Image src={logo} className="logo"/>
     </div>
-    {/* : <></>
-    } */}
     </Nav>
   </Navbar.Collapse>
 </Navbar>

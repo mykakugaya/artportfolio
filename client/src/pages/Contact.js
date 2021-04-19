@@ -4,7 +4,7 @@ import axios from "axios";
 import "./Contact.css";
 import SendIcon from '@material-ui/icons/Send';
 import aboutbanner from "../images/aboutbanner.jpg";
-import BannerImage from "../components/BannerImage";
+import ContactBanner from "../components/ContactBanner";
 
 export default class Contact extends Component {
   state = {
@@ -60,9 +60,9 @@ export default class Contact extends Component {
   render() {
     return (
       <Container className="contactbackground">
-        <BannerImage title="CONTACT" img={aboutbanner}/>
+        <ContactBanner title="CONTACT" img={aboutbanner}/>
         <div>
-          <h1 className="contact">Contact Adelina Kugaya</h1>
+          <h1 className="contact">Contact Us</h1>
         </div>
           <Form className="form" onSubmit={this.handleSubmit.bind(this)} action="/sendMail" method="POST">
             <Form.Group controlId="name">
@@ -105,7 +105,7 @@ export default class Contact extends Component {
             </Form.Group>
             {this.state.sent ? <p>Message sent successfully.</p> : <p></p>}
             <Button variant="outline-primary" type="submit" className="sendBtn btn btn-outline-primary" onClick={this.handleSubmit.bind(this)}>
-              <SendIcon/> Send Message
+              <SendIcon className="sendIcon"/><p className="sendMsg">Send Message</p>
             </Button>
           </Form>
       </Container>

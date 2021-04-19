@@ -7,32 +7,25 @@
   
   .missionCol{
     font-size:1rem;
-    max-width:60vw;
+    width:60vw;
     margin:0 auto;
     text-align:left;
+    justify-content: center;
+    align-items: center;
     position:relative;
-    margin-bottom: 10vh!important;
+    margin-bottom:8vh!important;
     float:left;
-  }
-
-  .missionRow{
-      margin-bottom:5vh!important;
   }
   
   .missionimage{
-    max-width: 37vw;
+    width: 37vw;
     /* max-height:40vh; */
     float:left;
     position: relative;
     border-radius: 2vw;
     /* margin-top:5vh; */
     margin:0;
-  }
-  .missionCol{
-      font-size:1rem;
-      text-align:left;
-      justify-content: center;
-      align-items: center;
+    margin-top:1vh!important;
   }
 
   .imgCol{
@@ -40,16 +33,48 @@
     margin-top:0;
     padding-right:5vw!important;
   }
+
+  .missionp{
+    font-size:1.2rem;
+    float:left;
+    margin-top:5vh;
+    margin-bottom:12vh;
+  }
+
+  .missionHeader{
+    text-align:left;
+    margin-left:7vw;
+    margin-bottom:0;
+    margin-top:0;
+  }
+  @media only screen and (max-device-width: 620px) {
+    .imgCol{
+      margin:0 auto;
+      padding:0 auto;
+      /* width:100vw; */
+    }
+    .missionimage{
+      width: 90vw!important;
+      /* padding: 0 auto; */
+      margin: 0 auto!important;
+      margin-bottom:1vh;
+      margin-left:8vw;
+    }
+    .missionHeader{
+      margin-left: 5vw!important;
+    }
+  .missionCol{
+      margin:0 auto;
+      margin-left: 2vw;
+    width: 95vw!important;
+  }
   .missionp{
       float:left;
-      margin-top:5vh;
+      /* width:100vw; */
+      margin-top: 2vh;
+      margin-left:2vw!important;
   }
-/*   
-  .bluetext{
-    color:#007bff;
-  } */
-  
-  
+  }
   @media only screen and (max-device-width: 400px) {
     .about{
       font-size:2.5rem;
@@ -60,27 +85,5 @@
     }
     .missionimage{
         margin-bottom:2vh;
-    }
-  }
-  @media only screen and (max-device-width: 767px) {
-      .imgCol{
-          text-align:center;
-          justify-content: center;
-          align-items: center;
-          margin:0 auto;
-      }
-      .missionCol{
-          margin:0 auto;
-      }
-    .missionimage{
-      max-width:90vw;
-      padding: 0 auto;
-      margin-bottom:2vh;
-      margin: 0 auto;
-    }
-    .missionp{
-        float:left;
-        margin-left:10vw;
-        width:100%;
     }
   }

@@ -7,6 +7,7 @@ export default function Mission() {
     return(
         <Container>
             <Row classname="missionRow">
+                <h1 className="missionHeader">What CERAMIX Can Do</h1>
                 <Col xs={12} sm={3} md={3} lg={3} className="imgCol">
                     <img src={ceramixsketch} className="missionimage" alt="missionimage"/>
                 </Col>

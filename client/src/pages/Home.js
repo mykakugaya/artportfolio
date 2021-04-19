@@ -9,7 +9,6 @@ function Home() {
     <Container>
         <Hero/>
         <Gallery/>
-        <MyArt/>
     </Container>
     );  
 }

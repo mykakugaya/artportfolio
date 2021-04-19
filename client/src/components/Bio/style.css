@@ -20,15 +20,13 @@
   }
   
   .bioimage{
-    /* max-width: 30vw; */
     float:left;
     position: relative;
     border-radius: 2vw;
-    /* margin-top:5vh; */
-    margin-left: 2vw;
-    margin-bottom:10vh;
-    margin-top:2vh;
-    max-width: 20rem;
+    margin-left: 5vw;
+    margin-bottom:18vh;
+    margin-top:8vh;
+    width: 18rem;
   }
   .bioCol{
       text-align:left;
@@ -44,34 +42,19 @@
   .biop{
     font-size:1.2rem;
       float:right;
-      margin-left:10vw;
+      margin-left:7vw;
       margin-top:5vh;
+      padding-right:3vh;
   }
-.missionp{
-  font-size:1.2rem;
-      float:left;
-      margin-top:5vh;
-}
   
 .aboutmeTitle{
   text-align:left;
-  margin-left:10vw;
+  margin-left:7vw;
   margin-bottom:0;
+  margin-top:0;
 }
   
-  @media only screen and (max-device-width: 400px) {
-    .about{
-      font-size:2.5rem;
-    }
-    .biop{
-        margin-top:2vh;
-        float:left;
-    }
-    .bioimage{
-        margin-bottom:2vh;
-    }
-  }
-  @media only screen and (max-device-width: 767px) {
+  @media only screen and (max-device-width: 820px) {
       .imgCol{
           text-align:center;
           justify-content: center;
@@ -82,14 +65,62 @@
           margin:0 auto;
       }
     .bioimage{
-      max-width:90vw;
       padding: 0 auto;
-      margin-bottom:2vh;
-      margin: 0 auto;
+      margin-bottom:10vh;
+      margin-left: 0!important;
     }
     .biop{
         float:left;
-        margin-left:10vw;
-        width:100%;
+        padding: 0 !important;
+        width: 80%;
+        margin-bottom: 15vh;
+    }
+  }
+  @media only screen and (max-device-width: 770px) {
+    .bioimage{
+      width: 15rem!important;
+      margin-top: 11vh!important;
+    }
+    .biop{
+      margin-left:2vw!important;
+      margin-top: 2vh!important;
+    }
+    .aboutmeTitle{
+      margin-left: 5vw!important;
+    }
+  }
+  @media only screen and (max-device-width: 620px) {
+    .bioimage{
+      margin-left:30vw!important;
+      margin-top:0!important;
+      margin-bottom:20vh!important;
+    }
+    .biop{
+      width:95vw;
+      margin:0 auto!important;
+      margin-bottom:5vh!important;
+      margin-left:5vw!important;
+    }
+    .aboutmeTitle{
+      margin-bottom:2vh;
+    }
+  }
+  @media only screen and (max-device-width: 450px) {
+    .about{
+      font-size:2.5rem;
+    }
+    .biop{
+        margin-top:2vh;
+        float:left;
+    }
+    .bioimage{
+        margin-bottom:2vh;
+        margin-left:12vw!important;
+    }
+  }
+
+  @media only screen and (max-device-width: 380px) {
+    .bioimage{
+      margin-left:10vw!important;
     }
   }
