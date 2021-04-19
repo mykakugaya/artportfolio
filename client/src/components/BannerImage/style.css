@@ -41,7 +41,7 @@
 
 @media only screen and (max-width: 1000px) {
     .title{
-        top: 20%;
+        top: 19%;
         left: 37%;
     }
 }
@@ -50,6 +50,13 @@
     .title{
         top: 18%;
         left:35%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .title{
+        top: 17%;
+        left:34%;
     }
 }
 
@@ -62,8 +69,9 @@
 
 @media only screen and (max-width: 599px) {
     .title{
-        top: 13%;
-        left:27%;
+        font-size:3.5em;
+        top: 14%;
+        left:30%;
     }
 }
 
@@ -76,14 +84,23 @@
 
 @media only screen and (max-width: 425px) {
     .title{
-        top: 11%;
-        left:22%;
+        font-size:3em;
+        top: 13%;
+        left:26%;
     }
 }
 
 @media only screen and (max-width: 400px) {
     .title{
-        top: 10%;
-        left:19%;
+        top: 12%;
+        left:23%;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .title{
+        font-size:2.5em;
+        top: 12%;
+        left:23%;
     }
 }

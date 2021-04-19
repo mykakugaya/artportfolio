@@ -16,7 +16,7 @@
     position: absolute;
     text-align: center;
     top:23%;
-    left:38%;
+    left:40%;
     margin: 0 auto!important;
     padding:0 auto!important;
     color: #acbbd4;
@@ -39,23 +39,62 @@
     margin:0;
 }
 
+@media only screen and (max-width: 1160px) {
+    .bannertitle{
+        top:20%;
+        left:38%;
+    }
+}
+
 @media only screen and (max-width: 1000px) {
     .bannertitle{
-        top: 20%;
-        left: 40%;
+        top: 18%;
+        left: 35%;
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    .bannertitle{
+        top: 15%;
+        left: 34%;
     }
 }
 
 @media only screen and (max-width: 770px) {
     .bannertitle{
-        top: 15%;
-        left:35%;
+        top: 14%;
+        left:32%;
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 630px) {
     .bannertitle{
-        top: 13%;
+        font-size:3.5em;
+        top: 14%;
         left:30%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .bannertitle{
+        font-size:3em;
+        top: 14%;
+        left:30%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .bannertitle{
+        font-size:2.5em;
+        top: 12%;
+        left:26%;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .bannertitle{
+        font-size:2.5em;
+        top: 12%;
+        left:22%;
     }
 }
