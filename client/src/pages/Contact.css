@@ -1,9 +1,10 @@
 .contact{
   font-size:2rem;
-  margin-bottom:4vh;
   font-family: 'Spartan', sans-serif;
-  padding:0;
-  
+  padding:0; 
+}
+.contactdesc{
+  margin-bottom:4vh;
 }
 .contactbackground{
   background-color: white;

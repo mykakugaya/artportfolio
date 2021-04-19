@@ -63,6 +63,7 @@ export default class Contact extends Component {
         <ContactBanner title="CONTACT" img={aboutbanner}/>
         <div>
           <h1 className="contact">Contact Us</h1>
+          <p className="contactdesc">For more information or to contribute to our page!</p>
         </div>
           <Form className="form" onSubmit={this.handleSubmit.bind(this)} action="/sendMail" method="POST">
             <Form.Group controlId="name">

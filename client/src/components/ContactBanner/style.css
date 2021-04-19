@@ -15,7 +15,7 @@
     font-size: 4em;
     position: absolute;
     text-align: center;
-    top:23%;
+    top:24%;
     left:40%;
     margin: 0 auto!important;
     padding:0 auto!important;
@@ -41,7 +41,7 @@
 
 @media only screen and (max-width: 1160px) {
     .bannertitle{
-        top:20%;
+        top:22%;
         left:38%;
     }
 }
@@ -62,7 +62,7 @@
 
 @media only screen and (max-width: 770px) {
     .bannertitle{
-        top: 14%;
+        top: 15%;
         left:32%;
     }
 }
@@ -70,12 +70,12 @@
 @media only screen and (max-width: 630px) {
     .bannertitle{
         font-size:3.5em;
-        top: 14%;
-        left:30%;
+        top: 15%;
+        left:31%;
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 520px) {
     .bannertitle{
         font-size:3em;
         top: 14%;
@@ -83,11 +83,11 @@
     }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 430px) {
     .bannertitle{
         font-size:2.5em;
-        top: 12%;
-        left:26%;
+        top: 13%;
+        left:28%;
     }
 }
 
